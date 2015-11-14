@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/title" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/gray_btn_bg_color" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/setting_item"
+            android:paddingLeft="0dp"
+            android:text="@string/not_tv_type" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/gray_btn_bg_color" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                style="@style/setting_item"
+                android:text="@string/not_tv_type1" />
+
+            <CheckBox
+                android:id="@+id/not_cb_type1"
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:gravity="center" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                style="@style/setting_item"
+                android:text="@string/not_tv_type2" />
+
+            <CheckBox
+                android:id="@+id/not_cb_type2"
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:gravity="center" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                style="@style/setting_item"
+                android:text="@string/not_tv_type3" />
+
+            <CheckBox
+                android:id="@+id/not_cb_type3"
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:gravity="center" />
+        </LinearLayout>
+
+
+        <TextView
+            style="@style/setting_item"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="0dp"
+            android:text="@string/not_tv_info" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/gray_btn_bg_color" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                style="@style/setting_item"
+                android:text="@string/not_tv_info1" />
+            <CheckBox
+                android:id="@+id/not_cb_info1"
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:gravity="center"   />
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

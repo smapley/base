@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">PowerWork</string>
+    <string name="slogan">标语</string>
+    <string name="versions">1.0</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="internet_err">网络不给力，换个姿势试试吧</string>
+
+    <string name="feedback">意见反馈</string>
+    <string name="fee_et_content">反馈内容</string>
+    <string name="fee_bt_submit">提交反馈</string>
+    <string name="fee_content_null">反馈信息不能为空的哦！</string>
+    <string name="fee_submit_success">我们已经收到了您的反馈，我们将火速赶去处理</string>
+
+    <string name="aboutus">关于我们</string>
+    <string name="abo_bt_good">给个好评吧</string>
+
+    <string name="setting">设置</string>
+    <string name="set_tv_account">账号设置</string>
+    <string name="set_tv_info">通知设置</string>
+    <string name="set_tv_feedback">意见反馈</string>
+    <string name="set_tv_aboutus">关于我们</string>
+
+    <string name="notification">通知设置</string>
+    <string name="not_tv_type">通知类型</string>
+    <string name="not_tv_type1">分配给我</string>
+    <string name="not_tv_type2">提醒关注</string>
+    <string name="not_tv_type3">我的安排</string>
+    <string name="not_tv_info">通知方式</string>
+    <string name="not_tv_info1">消息推送</string>
+
+    <string name="account">账号设置</string>
+    <string name="acc_tv_name">姓名</string>
+    <string name="acc_tv_phone">电话</string>
+    <string name="acc_tv_birthday">生日</string>
+    <string name="acc_dialog_title">换个头像，换个心情</string>
+    <string name="acc_dialog_ok">去相册</string>
+
+
+</resources>
